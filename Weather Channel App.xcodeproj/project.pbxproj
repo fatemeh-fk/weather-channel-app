@@ -13,6 +13,8 @@
 		2523D82126EFC52C00F65F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2523D81F26EFC52C00F65F69 /* Main.storyboard */; };
 		2523D82326EFC52E00F65F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2523D82226EFC52E00F65F69 /* Assets.xcassets */; };
 		2523D82626EFC52E00F65F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2523D82426EFC52E00F65F69 /* LaunchScreen.storyboard */; };
+		2523D83326F04E5600F65F69 /* image2s.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2523D83126F04E5600F65F69 /* image2s.pdf */; };
+		2523D83426F04E5600F65F69 /* images.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2523D83226F04E5600F65F69 /* images.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2523D82226EFC52E00F65F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2523D82526EFC52E00F65F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2523D82726EFC52E00F65F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2523D83126F04E5600F65F69 /* image2s.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = image2s.pdf; path = "../../../../Downloads/email download/image2s.pdf"; sourceTree = "<group>"; };
+		2523D83226F04E5600F65F69 /* images.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = images.pdf; path = "../../../../Downloads/email download/images.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		2523D81826EFC52C00F65F69 /* Weather Channel App */ = {
 			isa = PBXGroup;
 			children = (
+				2523D83126F04E5600F65F69 /* image2s.pdf */,
+				2523D83226F04E5600F65F69 /* images.pdf */,
 				2523D81926EFC52C00F65F69 /* AppDelegate.swift */,
 				2523D81B26EFC52C00F65F69 /* SceneDelegate.swift */,
 				2523D81D26EFC52C00F65F69 /* ViewController.swift */,
@@ -125,8 +131,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2523D82626EFC52E00F65F69 /* LaunchScreen.storyboard in Resources */,
+				2523D83426F04E5600F65F69 /* images.pdf in Resources */,
 				2523D82326EFC52E00F65F69 /* Assets.xcassets in Resources */,
 				2523D82126EFC52C00F65F69 /* Main.storyboard in Resources */,
+				2523D83326F04E5600F65F69 /* image2s.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
