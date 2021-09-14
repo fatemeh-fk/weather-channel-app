@@ -35,6 +35,9 @@
                                                 </constraints>
                                                 <color key="tintColor" name="weatherColor"/>
                                                 <state key="normal" backgroundImage="location.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="locationPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q7p-tp-Is8"/>
+                                                </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="search" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FrM-G6-l1z">
                                                 <rect key="frame" x="50" y="0.0" width="314" height="40"/>
@@ -120,6 +123,12 @@
                             <constraint firstAttribute="bottom" secondItem="5B6-c3-ayB" secondAttribute="bottom" id="zSt-46-pXD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityLabel" destination="2Az-ST-ggO" id="S8X-5T-EGK"/>
+                        <outlet property="conditionImageView" destination="QaZ-s2-JVM" id="T03-oX-1Yz"/>
+                        <outlet property="searchTextField" destination="FrM-G6-l1z" id="4Vv-pJ-Pav"/>
+                        <outlet property="temperatureLabel" destination="emd-uC-dja" id="Iid-tO-bMc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
